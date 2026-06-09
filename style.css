@@ -1,0 +1,56 @@
+body{
+    background-color: #FFF8E3;
+    margin: 0;
+    position: relative;
+}
+
+.circulo-fundo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1; /* fica atrás do texto */
+}
+
+.container{
+    position: relative;
+    z-index: 1; /* fica na frente */
+    bottom: -100px;
+    left: 40px;
+}
+
+h1, h3{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E8787E;
+    width: fit-content;
+    padding: 10px;
+}
+
+.circulo-imagem{
+  position: relative;
+    width: 20%;
+    height: 20%;
+    border-radius: 30%;
+   background-color: transparent;
+    margin-top: 20px;
+    right:-90%;
+
+    
+}
+
+.borda-circulo{
+        position: relative;
+    border: 14px solid #E8787E;
+        width: 100%;
+    height: 100%;
+        border-radius: 100%;
+    
+}
+
+
+.borda-circulo img{
+        position:relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+ 
+}
