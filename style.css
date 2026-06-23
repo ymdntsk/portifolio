@@ -223,7 +223,7 @@ nav.Menu a:hover {
 .social-link svg{
   width:34px;
   height:34px;
-  fill:#E8787E;
+  fill:#2c1e1f;
   opacity:0.95;
   transition:opacity .15s, transform .15s;
 }
