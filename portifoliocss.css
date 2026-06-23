@@ -53,7 +53,7 @@ h1, p{
 }
 
 nav.Menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
