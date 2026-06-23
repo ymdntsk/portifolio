@@ -52,19 +52,7 @@ footer img {
     position: relative;
     z-index: -1;
 }
-.butao {
 
-    width: 100%;
-}
-
-button{
-    border: 0;
-    color: white;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    font-weight:800;
-}
 
 #buttonidk {
     position: absolute;
@@ -129,7 +117,7 @@ nav.Menu a {
 
     color: #333;
     padding: 40px 20px;
-    margin-top: 600px;
+    margin-top: 300px;
     width: 30%;
     
     border-radius: 10px;
@@ -239,4 +227,114 @@ nav.Menu a:hover {
   opacity:0.18;
   margin-top:6px;
   letter-spacing:1px;
+}
+article{
+ box-sizing: border-box;
+ margin: 0px;
+ font-family: 'Poppins', sans-serif;
+
+ height: 600px;
+ width: 700px;
+
+ padding: 45px;
+display: flex;
+align-items: center;
+
+}
+
+article div{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+}
+
+article img{
+    min-height: 350px;
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.botaoooo{
+
+    margin-top: 80px;
+    color: rgb(175, 164, 164);
+    padding: 16px 24px;
+    border: solid 1px #c1c1c1;
+   border-radius: 15px;
+   background-color: transparent;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 800;
+       display: flex;
+       justify-self: center;
+       align-self: center;
+       margin-left:59px ;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+#Yeahhh{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: 600px;
+    flex-flow: column;
+
+
+}
+
+.help{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+}
+
+
+article div{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+article div h2{
+    box-sizing: border-box;
+    align-content: first baseline;
+    margin-bottom: 8px;
+    color: #6a3b3b !important;
+}
+
+article div p{
+    width: 200px;
+    margin-left: 30px ;
+    margin-top: 22px;
+        color: #c97878 !important;
+        font-weight: 520;
+}
+
+.card{
+    width:33%;
+    margin: right 0px;
+}
+
+.botaoooo:hover{
+  transform:translateY(-4px);
+  transition: 0.3s;
+  background-color: #e8787e23;
+  color: #7d3438;
+  border: 1px solid #7d3438;
 }
